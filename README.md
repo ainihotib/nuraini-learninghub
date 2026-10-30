@@ -17,12 +17,14 @@ web-karya/
 └── PANDUAN-DEPLOY.md panduan publikasi ke GitHub Pages atau Vercel
 ```
 
-## Mengganti data contoh dengan karya Anda
+## Mengganti data dengan karya Anda
 
-Buka `js/karya.js`.
+Buka `js/karya.js`. Semua teks situs ada di sini:
 
-1. Bagian `SITE`: isi nama situs, teks "Tentang", tautan sosial, dan `kontakUrl` (tautan WhatsApp atau formulir untuk tombol "Kabari saya").
-2. Bagian `KARYA`: salin satu blok `{ ... }`, ubah isinya, dan **hapus baris `demo: true`** agar label "Data contoh" hilang.
+1. `SITE`: nama, tagline, WhatsApp (`whatsapp`, format 62...), email, daftar "Dibuat dengan", dan akun media sosial (isi `url` agar menjadi tautan).
+2. `KARYA`: karya Anda. Salin satu blok `{ ... }`, ubah isinya, dan **hapus baris `demo: true`** agar label "Data contoh" hilang.
+3. `KARYA_PESERTA`: karya peserta pelatihan (tab "Karya peserta"), format sama dengan `KARYA` plus `pembuat`.
+4. `PROGRAM`, `SKEMA`, `PROFIL`: isi bagian Program pelatihan dan Tentang.
 
 Contoh satu karya:
 
