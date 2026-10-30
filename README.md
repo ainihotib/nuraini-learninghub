@@ -7,7 +7,8 @@ Etalase karya: game edukasi, lab maya, dan pengalaman AR. Web statis (HTML, CSS,
 ```
 web-karya/
 ├── index.html        halaman utama
-├── css/style.css     tampilan
+├── css/style.css     tampilan (palet navy dan orange ada di bagian :root paling atas)
+├── img/banner.webp   banner di bagian atas halaman (ganti berkas ini untuk mengganti banner)
 ├── js/
 │   ├── karya.js      ← SATU-SATUNYA berkas yang biasa Anda ubah (data situs dan daftar karya)
 │   ├── app.js        logika kartu, filter, pencarian

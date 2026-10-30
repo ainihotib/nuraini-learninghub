@@ -68,7 +68,7 @@
     ctx.beginPath(); ctx.moveTo(0, GROUND); ctx.lineTo(W, GROUND); ctx.stroke();
 
     // zona kena
-    ctx.fillStyle = "rgba(15, 143, 160, .22)";
+    ctx.fillStyle = "rgba(30, 79, 216, .2)";
     ctx.fillRect(px(target - TOLERANSI), GROUND - 8, TOLERANSI * 2 * SCALE, 8);
 
     // bendera sasaran
